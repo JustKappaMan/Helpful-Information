@@ -10,8 +10,8 @@ Open the file `pg_hba.conf`. It's located in `/etc/postgresql/*version*/main`. C
 
 > [!NOTE]
 > If you want to be able to connect with other users as well, you also need to change:
-
-`local all all peer` to `local all all md5`
+> 
+> `local all all peer` to `local all all md5`
 
 ---
 
@@ -32,9 +32,9 @@ ALTER USER postgres with password 'your-pass';
 
 > [!NOTE]
 > If you have other users, they will need a password as well:
-```postgresql
-ALTER USER my_user with password 'your-pass';
-```
+> ```postgresql
+> ALTER USER my_user with password 'your-pass';
+> ```
 
 Then exit from psql.
 
@@ -58,9 +58,9 @@ psql -U postgres
 
 > [!NOTE]
 > Same now works for `my_user` if you added the user and password:
-```shell
-psql -d YOUR_DB_NAME -U my_user
-```
+> ```shell
+> psql -d YOUR_DB_NAME -U my_user
+> ```
 
 ---
 
