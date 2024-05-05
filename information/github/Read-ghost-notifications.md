@@ -5,13 +5,13 @@ Solution found [here](https://github.com/orgs/community/discussions/6874#discuss
 ---
 
 Sometimes something like this happens:
-* Spammers mention you somewhere on GitHub;
-* Moderators delete the message/gist/repo containing the mention;
-* There are no notifications in your "Notifications" section but annoying blue dot is still there.
+* Spammers mention you somewhere on GitHub
+* Moderators delete the message/gist/repo containing the mention
+* There are no notifications in your "Notifications" section but annoying blue dot is still there
 
 ---
 
-Execute the following command in terminal:
+Execute the following command:
 ```shell
 curl -X PUT \
     -H "Accept: application/vnd.github.v3+json" \
@@ -20,6 +20,6 @@ curl -X PUT \
     https://api.github.com/notifications \
 ```
 > [!IMPORTANT]
-> Don't forget to replace
-> * `$TOKEN` with your [Personal Access Token](https://github.com/settings/tokens/new);
-> * `$TIMESTAMP` with current time in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`.
+> Don't forget to replace:
+> * `$TOKEN` with your [Personal Access Token](https://github.com/settings/tokens/new)
+> * `$TIMESTAMP` with current time in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`

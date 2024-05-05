@@ -65,6 +65,6 @@ psql -U postgres
 ---
 
 Authentication methods details:
-* `trust` - anyone who can connect to the server is authorized to access the database;
-* `peer` - use client's operating system username as database username to access it;
-* `md5` - password-base authentication.
+* `trust` - anyone who can connect to the server is authorized to access the database
+* `peer` - use client's operating system username as database username to access it
+* `md5` - password-base authentication
