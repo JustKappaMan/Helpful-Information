@@ -9,5 +9,5 @@ My personal collection of various helpful information.
 * [Configure PostgreSQL on Linux Mint](information/linux/Configure-PostgreSQL-on-Linux-Mint.md)
 * [Install pgAdmin on Linux Mint](information/linux/Install-pgAdmin-on-Linux-Mint.md)
 
-# GitHub
+## GitHub
 * [Read "ghost" notifications](information/github/Read-ghost-notifications.md)
